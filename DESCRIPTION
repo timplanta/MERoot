@@ -1,0 +1,9 @@
+Package: MERoot
+Title: Microscopic Essentials for Root
+Version: 0.0.0.9000
+Authors@R: 
+    person("Shaoti", "Sui", , "timstsui@gmail.com", role = c("aut", "cre"))
+Description: Contains some codes and scripts quite essential for analyzing confocal microscopy pictures from the root. Containing some tools for root cell segmentation and extracting relevant statistics, plotting spatial distribution of fluorescence, etc.
+License: use_mit_license()
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
