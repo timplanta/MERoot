@@ -7,3 +7,5 @@ Description: Contains some codes and scripts quite essential for analyzing confo
 License: use_mit_license()
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
+URL: https://github.com/timplanta/MERoot
+BugReports: https://github.com/timplanta/MERoot/issues
