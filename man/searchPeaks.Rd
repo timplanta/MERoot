@@ -20,7 +20,12 @@ searchPeaks(x, y, w = 10, plot = FALSE, span = 0.03, ...)
 \item{...}{Allows addition of more constraint of loess smoothing.}
 }
 \value{
-A list containing peak location.
+A list containing peak location information. It contains following elements:
+\itemize{
+\item \code{x}. A numeric vector containing all local peaking point.
+\item \code{i}. An integer vector containing indices of all peak location.
+\item \code{y.hat}. A numeric vector containing the smoothening output of loess.
+}
 }
 \description{
 This code is modified originally from William S Huber's post on Cross

@@ -14,7 +14,10 @@
 #' @param plot Logical. Whether or not to plot the resulting graph showing the found maximum points.
 #' @param span Numeric. Span for loess smoothing of data. See details in description for `loess`
 #' @param ... Allows addition of more constraint of loess smoothing.
-#' @returns A list containing peak location.
+#' @returns A list containing peak location information. It contains following elements:
+#' * `x`. A numeric vector containing all local peaking point.
+#' * `i`. An integer vector containing indices of all peak location.
+#' * `y.hat`. A numeric vector containing the smoothening output of loess.
 #' @export
 searchPeaks <- function(x, y, w=10, plot = FALSE, span = 0.03, ...) {
   require(zoo)
