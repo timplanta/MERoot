@@ -4,7 +4,7 @@
 \alias{databin}
 \title{Bin fluorescence intensity spectrum data (.csv) from ImageJ}
 \usage{
-databin(dirlist, group, num.bin = 50)
+databin(dirlist, group, num.bin = 50, show.process = FALSE)
 }
 \arguments{
 \item{dirlist}{A list containing the directory of all fluorescence intensity data in .csv format.}
@@ -12,6 +12,8 @@ databin(dirlist, group, num.bin = 50)
 \item{group}{An integer object assigning group index for all listed directory. This could be such that repeats of the same treatment being grouped together.}
 
 \item{num.bin}{An integer. Number of bins you wish to have. Default is 50.}
+
+\item{show.process}{Logical. Decide whether the file reading process would be shown in Console. Useful when there is bug in a file.}
 }
 \value{
 Return a list containing all the data with additional column including binning information.

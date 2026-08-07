@@ -9,3 +9,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
 URL: https://github.com/timplanta/MERoot
 BugReports: https://github.com/timplanta/MERoot/issues
+Imports: 
+    zoo

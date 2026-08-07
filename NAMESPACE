@@ -2,3 +2,4 @@
 
 export(binttest)
 export(databin)
+export(searchPeaks)
