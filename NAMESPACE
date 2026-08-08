@@ -2,4 +2,5 @@
 
 export(binttest)
 export(databin)
+export(peakMean)
 export(searchPeaks)
